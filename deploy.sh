@@ -84,3 +84,6 @@ git push origin master
 
 # Come Back
 cd ${ROOT}
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+echobold "Wow. We're all done. Let's have a :beer:"
