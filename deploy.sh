@@ -20,8 +20,8 @@ echoitalic "* E-mail      : s.w.vanderlaan-2@umcutrecht.nl"
 echoitalic "* Last update : 2017-10-02"
 echoitalic "* Version     : v1.0"
 echo ""
-echoitalic "* Description : This script will set some directories, execute something in a for "
-echoitalic "                loop, and will then update the website."
+echoitalic "* Description : This script will set some directories, execute some things, "
+echoitalic "                and will then update the website."
 echo ""
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo "Today's: "$(date)
@@ -41,8 +41,6 @@ echo "Public website____________ ${WEBSITEPUBLIC}"
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "Deploying updates to GitHub."
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-
 echo "* Building the project..."
 cd ${WEBSITE}
 rm -rvf ${WEBSITEPUBLIC}
@@ -55,8 +53,12 @@ git push origin master
 
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
+### Depending on your needs, you can create a LICENSE file and README.md. You can use
+### these as an example 
 cp -v ${ROOT}/focus_stuff/LICENSE ${WEBSITEPUBLIC}/LICENSE
 cp -v ${ROOT}/focus_stuff/README.md ${WEBSITEPUBLIC}/README.md
+### If you want to re-direct your GitHub page to another domain, you'll have to make a
+### 'CNAME' file.
 echo "http://www.waldamargroup.com" > ${WEBSITEPUBLIC}/CNAME
 
 echo "* Going to 'public' folder..."
