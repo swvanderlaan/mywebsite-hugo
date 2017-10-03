@@ -57,6 +57,7 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
 cp -v ${ROOT}/focus_stuff/LICENSE ${WEBSITEPUBLIC}/LICENSE
 cp -v ${ROOT}/focus_stuff/README.md ${WEBSITEPUBLIC}/README.md
+echo "http://www.waldamargroup.com" > ${WEBSITEPUBLIC}/CNAME
 
 echo "* Going to 'public' folder..."
 
