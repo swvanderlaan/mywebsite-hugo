@@ -59,7 +59,7 @@ cp -v ${ROOT}/focus_stuff/LICENSE ${WEBSITEPUBLIC}/LICENSE
 cp -v ${ROOT}/focus_stuff/README.md ${WEBSITEPUBLIC}/README.md
 ### If you want to re-direct your GitHub page to another domain, you'll have to make a
 ### 'CNAME' file.
-echo "http://www.waldamargroup.com" > ${WEBSITEPUBLIC}/CNAME
+# echo "http://www.waldamargroup.com" > ${WEBSITEPUBLIC}/CNAME
 
 echo "* Going to 'public' folder..."
 
