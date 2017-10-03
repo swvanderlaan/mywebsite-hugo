@@ -23,8 +23,9 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/banner.png"
-caption = "Image credit: [**Bereziuk Serhii**](https://www.shutterstock.com/g/bereziuk%20serhii)"
+image = "headers/banner_man_standing_dna.png"
+caption = "Image credit: [**watchara**](https://www.shutterstock.com/g/watchara)"
+
 
 +++
 
