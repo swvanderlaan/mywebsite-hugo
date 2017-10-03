@@ -1,6 +1,6 @@
 +++
-date = 2016-09-30
-lastmod = 2017-09-30
+date = 2016-10-03
+lastmod = 2017-10-03
 draft = false
 tags = ["hugo", "news", "github"]
 title = "How I maintain my Hugo-based website on GitHub"
@@ -11,7 +11,7 @@ Find my own way.
 """
 
 [header]
-image = "headers/banner.png"
+image = "headers/computer_code_broad.png"
 caption = "Image credit: [**unknown**]"
 
 +++
