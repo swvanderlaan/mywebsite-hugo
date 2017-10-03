@@ -24,7 +24,7 @@ math = false
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/dna_drugs_shutterstock_432561187_broad.png"
-caption = ""
+caption = "Image credit: [**Isak55**](https://www.shutterstock.com/g/isak55)"
 
 +++
 

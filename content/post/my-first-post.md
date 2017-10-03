@@ -11,7 +11,7 @@ Find my own way.
 
 [header]
 image = "headers/banner.png"
-caption = "Image credit: [**unknown**]"
+caption = "Image credit: [**Bereziuk Serhii**](https://www.shutterstock.com/g/bereziuk%20serhii)"
 
 +++
 
