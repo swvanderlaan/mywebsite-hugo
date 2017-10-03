@@ -2,7 +2,7 @@
 # An example of using the custom widget to create your own homepage section.
 # To create more sections, duplicate this file and edit the values below as desired.
 
-date = "2017-09-20T21:54:00"
+date = "2017-10-03T21:54:00"
 draft = false
 
 title = "Teaching"
@@ -14,8 +14,8 @@ weight = 60
 
 +++
 
-I am one of the lecturers for the following courses and years at the University Medical Center Utrecht:
+I am one of the lecturers for the following courses and years:
 
-* **BMS-BA-3**: *Cardiovascular Biology* (since 2010)
-* **CRU2006-2**: *Circulatory Health 2*: The role of the circulation and the arterial wall (since 2010)
-* **MSc Epidemiology**: *Cardiovascular genetics*: Mendelian Randomisation and power (since 2017
+* **BMW32416**: *Vascular Biology* (since 2010) | BSc Biomedical Sciences | [University of Utrecht](https://students.uu.nl/en/node/641/exchange-students/course-list-biomedical-sciences)
+* **GNBA221506**: *Healthy arteries: the role of the arterial wall and the circulation* (since 2010)  | BSc Medicine | [University of Utrecht](https://students.uu.nl/gnk/geneeskunde-b/onderwijs/minors)
+* **MSc Epidemiology**: *Cardiovascular genetics*: Mendelian Randomisation and power (since 2017)  | MSc Epidemiology | [Julius Center - University Medical Center Utrecht](http://portal.juliuscentrum.nl)
