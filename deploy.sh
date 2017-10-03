@@ -86,4 +86,4 @@ git push origin master
 cd ${ROOT}
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-echobold "Wow. We're all done. Let's have a ":beer:
+echobold "Wow. We're all done. Let's have a 🍺!"
