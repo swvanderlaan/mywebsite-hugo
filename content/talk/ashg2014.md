@@ -17,7 +17,7 @@ url_video = ""
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/banner.jpg"
-caption = ""
+caption = "Image credit: [**Bereziuk Serhii**](https://www.shutterstock.com/g/bereziuk%20serhii)"
 
 +++
 

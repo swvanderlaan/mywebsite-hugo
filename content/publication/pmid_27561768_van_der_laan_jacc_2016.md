@@ -7,15 +7,21 @@ image_preview = ""
 math = true
 publication_types = ["2"]
 publication = "Journal of the American College of Cardiology."
-publication_short = "**JACC**"
+publication_short = "**JACC; Volume 68, Issue 9, August 2016. DOI: 10.1016/j.jacc.2016.05.092**"
 selected = true
 title = "Cystatin C and Cardiovascular Disease: A Mendelian Randomization Study"
 url_code = ""
 url_dataset = ""
-url_pdf = "https://www.ncbi.nlm.nih.gov/pubmed/27561768"
+url_pdf = "http://www.onlinejacc.org/content/accj/68/9/934.full.pdf?download=true"
 url_project = "project/mendelian-randomisation/"
 url_slides = ""
-url_video = ""
+url_video = "http://traffic.libsyn.com/jaccaudio/JACC6809_fustersummary_05.mp3"
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = "headers_publications/banner_pmid_27561768_van_der_laan_jacc_2016.png"
+caption = "Image credit: [**Van der Laan et al.**](http://www.onlinejacc.org/content/68/9/934)"
 
 +++
 
+You can also read the [editorial](http://www.onlinejacc.org/content/68/9/946) by Adeera Levin and James H. Lan regarding our publication.
