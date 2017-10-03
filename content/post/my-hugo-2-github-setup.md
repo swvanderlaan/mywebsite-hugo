@@ -12,7 +12,7 @@ Find my own way.
 
 [header]
 image = "headers/computer_code_broad.png"
-caption = "Image credit: [**unknown**]"
+caption = "Image credit: [**vintagetone**](https://www.shutterstock.com/g/vintagetone)"
 
 +++
 
