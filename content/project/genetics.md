@@ -1,19 +1,19 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2017-10-03"
 
 # Project title.
 title = "Cardiovascular genetics"
 
 # Project summary to display on homepage.
-summary = "Investigations into the genetic architecture of cardiovascular disease."
+summary = "Investigations into the genetic architecture of cardiovascular diseases and their risk factors."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "heart_squared.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["cardiovascular-genetics", "genetics", "gwas", "genome-wide-association-study", "loss-of-variant", "haploinsufficiency", "protein-truncating-variation", "rare-variant", "common-variant"]
+tags = ["cardiovascular genetics", "genetics", "gwas", "genome-wide association study", "loss-of-variant", "haploinsufficiency", "protein-truncating variation", "rare variant", "common variant"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

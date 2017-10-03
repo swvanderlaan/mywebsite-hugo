@@ -2,12 +2,12 @@
 date = 2016-10-03
 lastmod = 2017-10-03
 draft = false
-tags = ["hugo", "news", "github"]
+tags = ["hugo", "github", "coding", "html"]
 title = "How I maintain my Hugo-based website on GitHub"
 math = true
 highlight = true
 summary = """
-Find my own way. 
+Understanding hugo 2 github static site building. 
 """
 
 [header]

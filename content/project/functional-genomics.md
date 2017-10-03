@@ -1,19 +1,19 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2017-10-03"
 
 # Project title.
 title = "Functional genomics"
 
 # Project summary to display on homepage.
-summary = "Exploring the functional role of cardiovascular risk loci."
+summary = "Exploring the functional role of genetic risk loci of cardiovascular diseases and risk factors."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "man_standing_dna_squared.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["functional-genomics", "expression", "methylation", "quantitative-trait-locus", "eqtl", "mqtl", "fine-mapping"]
+tags = ["functional genomics", "expression", "methylation", "quantitative trait locus", "eqtl", "mqtl", "pqtl", "fine-mapping"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

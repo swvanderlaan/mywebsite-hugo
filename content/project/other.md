@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2017-10-03"
 
 # Project title.
 title = "Other work"
@@ -13,7 +13,7 @@ image_preview = "brain_squared.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["other", "cardiovascular", "atherosclerosis", "risk-factors"]
+tags = ["other", "cardiovascular", "atherosclerosis", "risk factors"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

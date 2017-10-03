@@ -2,7 +2,7 @@
 date = 2016-09-30
 lastmod = 2017-09-30
 draft = false
-tags = ["academic", "me"]
+tags = ["science", "news"]
 title = "Re-inventing my academic self"
 math = true
 summary = """
