@@ -14,7 +14,7 @@ weight = 40
 
 +++
 
-Here's a list of some of the grants I applied for.
+Here's a list of some of my successes and failures, be cause *"the only real mistake is the one from which we learn nothing."* [Henry Ford].
 
 * **CP2013-63**: *Genotyping of the Abdominal Aortic Aneurysm-Express Biobank Study* | Grant total: €50,000.- | Received: 😁 | [BBMRI-NL](http://www.bbmri.nl) (Leiden, Zuid-Holland, Netherlands)
 
