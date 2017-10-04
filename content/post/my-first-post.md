@@ -24,8 +24,10 @@ Today marks the day of re-inventing my academic self. As the genetics community 
 
 Likely this will be my first of very few posts, I feel the publications, my GitHub-repositories, and other activities should speak for themselves.
 
-## License
+----- 
+##### License
 
-&copy; Copyright. 1979-2017 Sander W. van der Laan | [s.w.vanderlaan@gmail.com](mailto:s.w.vanderlaan@gmail.com).
+&copy; Copyright. 1979-2017 Sander W. van der Laan.
 
 Released under [the MIT license](http://opensource.org/licenses/MIT).
+
