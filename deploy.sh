@@ -52,7 +52,6 @@ echobold "Deploying updates to GitHub."
 echo "* Building the project..."
 cd ${WEBSITE}
 rm -rvf ${WEBSITEPUBLIC}
-rm -rvf ${WEBSITEPUBLIC}
 
 git status
 git add -A
