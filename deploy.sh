@@ -38,7 +38,7 @@ USERROOT="/Users/svanderlaan"
 
 
 # ROOT
-ROOT="${USERROOT}/Library/Mobile Documents/com~apple~CloudDocs/website"
+ROOT="${USERROOT}/Library/Mobile\ Documents/com~apple~CloudDocs/website"
 
 WEBSITE="${ROOT}/mywebsite-hugo"
 WEBSITEPUBLIC="${WEBSITE}/public"
