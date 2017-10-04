@@ -59,7 +59,7 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
 ### Depending on your needs, you can create a LICENSE file and README.md. You can use
 ### these as an example 
-cp -v ${ROOT}/focus_stuff/LICENSE ${WEBSITEPUBLIC}/LICENSE
+cp -v ${ROOT}/focus_stuff/LICENSE ${WEBSITEPUBLIC}/LICENSE.md
 cp -v ${ROOT}/focus_stuff/README.md ${WEBSITEPUBLIC}/README.md
 ### If you want to re-direct your GitHub page to another domain, you'll have to make a
 ### 'CNAME' file.
