@@ -152,10 +152,12 @@ After I make some changes, I can conveniently run the following code to deploy t
 `bash deploy.sh "Your optional commit message"`
 {{% /alert %}}
 
+</br></br>
+
 ----- 
-##### License
+<sub><sup>##### License
 
 &copy; Copyright. 1979-2017 Sander W. van der Laan.
 
-Released under [the MIT license](http://opensource.org/licenses/MIT).
+Released under [the MIT license](http://opensource.org/licenses/MIT).</sup></sub>
 
