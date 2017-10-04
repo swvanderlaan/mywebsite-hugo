@@ -13,7 +13,7 @@ image_preview = "man_standing_dna_squared.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["functional genomics", "expression", "methylation", "quantitative trait locus", "eqtl", "mqtl", "pqtl", "fine-mapping"]
+tags = ["functional-genomics", "expression", "methylation", "quantitative-trait-locus", "eqtl", "mqtl", "pqtl", "fine-mapping"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

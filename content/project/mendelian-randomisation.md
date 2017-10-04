@@ -13,7 +13,7 @@ image_preview = "dna_drugs_squared.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["causal inference", "mendelian randomisation", "genetics", "rare variant", "common variant"]
+tags = ["causal-inference", "mendelian-randomisation", "genetics", "rare-variant", "common-variant"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

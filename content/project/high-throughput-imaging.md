@@ -13,7 +13,7 @@ image_preview = "slides_squared.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["high-throughput imaging", "slidetoolkit", "CellProfiler", "machine-learning", "deep-learning"]
+tags = ["high-throughput-imaging", "slidetoolkit", "CellProfiler", "machine-learning", "deep-learning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

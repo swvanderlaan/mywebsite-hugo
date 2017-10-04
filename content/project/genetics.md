@@ -13,7 +13,7 @@ image_preview = "heart_squared.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["cardiovascular genetics", "genetics", "gwas", "genome-wide association study", "loss-of-variant", "haploinsufficiency", "protein-truncating variation", "rare variant", "common variant"]
+tags = ["cardiovascular-genetics", "genetics", "gwas", "genome-wide-association-study", "loss-of-variant", "haploinsufficiency", "protein-truncating-variation", "rare-variant", "common-variant"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
