@@ -1,11 +1,11 @@
 baseurl = "https://swvanderlaan.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "Functional Cardiovascular Genomics"
+title = "FOCARGE: Functional Cardiovascular Genomics"
 copyright = "&copy; 1979-2017 Sander W. van der Laan"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-paginate = 10
+paginate = 5
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = "swvanderlaan-github"
