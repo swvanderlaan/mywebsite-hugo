@@ -155,7 +155,5 @@ After I make some changes, I can conveniently run the following code to deploy t
 </br></br>
 
 ----- 
-<sub><sup>##### License</sup></sub>
-
 <sub><sup>&copy; Copyright. 1979-2017 Sander W. van der Laan. Released under [the MIT license](http://opensource.org/licenses/MIT).</sup></sub>
 

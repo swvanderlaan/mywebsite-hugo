@@ -27,9 +27,4 @@ Likely this will be my first of very few posts, I feel the publications, my GitH
 </br></br>
 
 ----- 
-<sub><sup>##### License
-
-&copy; Copyright. 1979-2017 Sander W. van der Laan.
-
-Released under [the MIT license](http://opensource.org/licenses/MIT).</sup></sub>
-
+<sub><sup>&copy; Copyright. 1979-2017 Sander W. van der Laan. Released under [the MIT license](http://opensource.org/licenses/MIT).</sup></sub>
