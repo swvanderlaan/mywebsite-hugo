@@ -13,12 +13,12 @@ function echoitalic { #'echobold' is the function name
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "                              UPDATING WEBSITE"
-echo "                                    version 1.1"
+echo "                                    version 1.2"
 echo ""
 echoitalic "* Written by  : Sander W. van der Laan"
 echoitalic "* E-mail      : s.w.vanderlaan-2@umcutrecht.nl"
-echoitalic "* Last update : 2017-10-03"
-echoitalic "* Version     : v1.1"
+echoitalic "* Last update : 2017-10-04"
+echoitalic "* Version     : v1.2"
 echo ""
 echoitalic "* Description : This script will set some directories, execute some things, "
 echoitalic "                and will then update the website."
@@ -30,7 +30,16 @@ echo ""
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "The following directories are set."
 
-ROOT="/Users/swvanderlaan/website"
+# Macbook Pro
+# USERROOT="/Users/swvanderlaan"
+
+# Mac Pro
+USERROOT="/Users/svanderlaan"
+
+
+# ROOT
+ROOT="${USERROOT}/Library/Mobile Documents/com~apple~CloudDocs/website"
+
 WEBSITE="${ROOT}/mywebsite-hugo"
 WEBSITEPUBLIC="${WEBSITE}/public"
 
