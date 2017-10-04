@@ -31,13 +31,10 @@ echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echobold "The following directories are set."
 
 # Macbook Pro
-# USERROOT="/Users/swvanderlaan"
-
-# Mac Pro
-USERROOT="/Users/svanderlaan"
+USERROOT="/Users/swvanderlaan"
 
 # ROOT
-ROOT="${USERROOT}/Library/Mobile\ Documents/com~apple~CloudDocs/website/"
+ROOT="${USERROOT}/website"
 
 WEBSITE="${ROOT}/mywebsite-hugo"
 WEBSITEPUBLIC="${WEBSITE}/public"
@@ -51,7 +48,6 @@ echobold "Deploying updates to GitHub."
 
 echo "* Building the project..."
 cd ${WEBSITE}
-rm -rvf ${WEBSITEPUBLIC}
 rm -rvf ${WEBSITEPUBLIC}
 
 git status
