@@ -42,7 +42,7 @@ defaultContentLanguageInSubdir = false
   email = "s.w.vanderlaan-2@umcutrecht.nl"
   address = "Heidelberglaan 100, 3584 CX Utrecht, the Netherlands"
   office_hours = "Everyday of the week; or email for appointment."
-  phone = "+31 (0)88 755 52 36"
+  phone = "+31 (0)88 756 76 96"
   skype = "swvanderlaan"
   telegram = ""
 
@@ -201,19 +201,24 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 5
+
+[[menu.main]]
   name = "Teaching"
   url = "#teaching"
-  weight = 5
+  weight = 6
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 6
+  weight = 7
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 7
+  weight = 8
 
 # Taxonomies.
 [taxonomies]
