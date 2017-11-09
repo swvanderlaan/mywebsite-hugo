@@ -1,18 +1,18 @@
 +++
 # Recent and Upcoming Talks widget.
 
-date = "2017-09-20T21:54:00"
+date = "2017-11-09T21:54:00"
 draft = false
 
 title = "Talks & Presentations"
-subtitle = ""
+subtitle = "[Downloads](https://github.com/swvanderlaan/talks-and-presentations)"
 widget = "talks"
 
 # Order that this section will appear in.
 weight = 50
 
 # Number of talks to list.
-count = 10
+count = 5
 
 # Show talk details (such as abstract)? (true/false)
 detailed_list = false
