@@ -41,7 +41,7 @@ First, I make some directories I need: `.ssh` and `bin` directory.
 Second, we will proceed with installing `brew`, `Command Line Tools`, `XQuartz`, `Python`, some `Perl` modules, and finally `R` with `RStudio`. Again, here `Python` is probably not strictly needed. 
 
    * Install **`Command Line Tools`** for macOS El Capitan+ using the instructions here: [http://railsapps.github.io/xcode-command-line-tools.html](http://railsapps.github.io/xcode-command-line-tools.html).
-   * Install **Perl** modules:
+   * Install some useful **Perl** statistics modules:
    
        * `sudo cpan YAML Getopt::Long Statistics::Distributions` - I needed this to work get proper p-values calculated in our [MetaGWASToolKit](https://github.com/swvanderlaan/MetaGWASToolKit).
    
@@ -49,23 +49,27 @@ Second, we will proceed with installing `brew`, `Command Line Tools`, `XQuartz`,
    
        * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
    
-   * Now were are ready to brew, and install the following packages:
+   * Now were are ready to `brew`, and install the following packages:
        * `brew install coreutils gnu-sed wget rename git gd libharu git imagemagick lzo hdf5 bison`, these are needed for [**slideToolkit**](https://swvanderlaan.github.io/slideToolkit/), but also contain some general very useful libraries.
        * `brew install mariadb-connector-c`, for some R packages that require `RMySQL` to work.
        * `brew install findutils --with-default-names`.
+   
    * For **[FastQTL](http://fastqtl.sourceforge.net)** and **[fastQTLToolKit](https://github.com/swvanderlaan/fastQTLToolKit)** to work we need to install `GNU scientific libraries`.
         * `brew install zlib boost gsl `
+   
    * We need `cask` to install `Xquartz`. 
        * `brew tap caskroom/cask && brew install cask`
        * `brew cask install xquartz && brew cask install java`
 {{% alert note %}}
 Use `brew doctor` to diagnose in-between installations; if there is a problem with ownership use `chown -vR <MYUSERNAME> <A_FOLDER_NAME>` to get ownership back recursively (indicated by the `R`-flag).
 {{% /alert %}}
+   
    * Install the following **Python**:
        * `brew install python`
        * `brew install llvm` — for **[LDSTORE](http://www.christianbenner.com)** to work. To get LDSTORE working on my Mac I also had to jump through some hoops - I'll tell you all about that later.
        * `pip2 install argparse numpy scipy scikit-learn pandas openpyxl xlrd` — the latter two are needed for **[slideToolkitTools](https://github.com/swvanderlaan/slideToolkitTools)**, which is a private repository I use for [**slideToolkit**](https://swvanderlaan.github.io/slideToolkit/).
-   * Yeah, so now, finally you're ready to install `R`. 
+   
+   * So now, finally, you're ready to install `R`. 
        * `brew tap homebrew/science`
        * `brew install r` - I needed `R` installed *with* `tcl-tk`, so I figured out how to do that in [an other post]({{< ref "post/getting-R-with-tcl-tk-on-my-mac.md" >}}). You might not need that.
        * `brew cask install rstudio` - because I dislike the terminal `R`.
