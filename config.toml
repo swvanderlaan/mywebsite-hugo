@@ -1,7 +1,7 @@
 baseurl = "https://swvanderlaan.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Van der Laan & Science"
 copyright = "&copy; 1979-2018 Sander W. van der Laan"
-theme = "1950s"
+theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -25,8 +25,8 @@ defaultContentLanguageInSubdir = false
 
 [params]
   # Color theme.
-  #   Choose from `default`, `ocean`, `forest`, or `coffee`.
-  color_theme = "default"
+  #   Choose from `default`, `ocean`, `dark`, `forest`, `coffee` and `1950s`.
+  color_theme = "1950s"
 
   # Font style.
   #   Choose from `default` or `classic`.
