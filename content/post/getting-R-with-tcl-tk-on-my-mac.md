@@ -26,10 +26,11 @@ The thing is: I use `brew` to install `R` and many other packages/libraries lack
 ### Step-by-step
 
 1. I made sure I have tcl-tk installed via `brew`.
-   `brew install tcl-tk`
-   I made sure `tcl-tk` was in my path: `echo 'export PATH="/usr/local/opt/tcl-tk/bin:$PATH"' >> ~/.bash_profile`.
-   The command `wish` also confirmed this.
+   * `brew install tcl-tk`
+   * I made sure `tcl-tk` was in my path: `echo 'export PATH="/usr/local/opt/tcl-tk/bin:$PATH"' >> ~/.bash_profile`.
+   * The command `wish` also confirmed this.
 2. I also made sure I had installed Command Line Tools properly - there were some updates to High Sierra in the last week, and based on the discussions above I feared it might had to re-installed. I didn't have to, but here's how I checked that. The command `brew config` shows:
+
    > HOMEBREW_VERSION: 1.5.2
    > ORIGIN: https://github.com/Homebrew/brew
    > HEAD: 60a30e966b7cece5bd4823dae3fb981ab85106ea
@@ -51,7 +52,9 @@ The thing is: I use `brew` to install `R` and many other packages/libraries lack
    > Xcode: N/A
    **> CLT: 9.2.0.0.1.1510905681**
    > X11: 2.7.11 => /opt/X11
+   
    The bold printed line suggests that Command Line Tools should be installed.
+   
 3. I than double checked if the path was really set, using the command `xcode-select -p`, which shows:
    > /Library/Developer/CommandLineTools
 4. Also `gcc` is properly set. I checked this using `gcc --version`, which shows:
