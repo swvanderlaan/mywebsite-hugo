@@ -1,13 +1,13 @@
 +++
 date = 2018-02-06
-lastmod = 2018-02-06
+lastmod = 2018-02-06:13:58
 draft = false
 tags = ["macOS", "coding", "html", "mac", "homebrew", "R", "Rstudio"]
 title = "How I setup my Mac to do Science in 2018"
 math = true
 highlight = true
 summary = """
-Setting up macOS El Capitan+ with homebrew, R, and Rstudio. 
+Setting up macOS El Capitan+ to do Science in 2018 with homebrew. 
 """
 
 [header]
@@ -58,9 +58,9 @@ Second, we will proceed with installing `brew`, `Command Line Tools`, `XQuartz`,
    * We need `cask` to install `Xquartz`. 
        * `brew tap caskroom/cask && brew install cask`
        * `brew cask install xquartz && brew cask install java`
-        {{% alert note %}}
-        Use “brew doctor” to diagnose in-between installations; if there is a problem with ownership use “chown -vR MYUSERNAME A_FOLDER_NAME” to get ownership back recursively (‘R').
-        {{% /alert %}}
+{{% alert note %}}
+Use `brew doctor` to diagnose in-between installations; if there is a problem with ownership use `chown -vR <MYUSERNAME> <A_FOLDER_NAME>` to get ownership back recursively (indicated by the `R`-flag).
+{{% /alert %}}
    * Install the following **Python**:
        * `brew install python`
        * `brew install llvm` — for **[LDSTORE](http://www.christianbenner.com)** to work. To get LDSTORE working on my Mac I also had to jump through some hoops - I'll tell you all about that later.

@@ -5,6 +5,7 @@ draft = false
 tags = ["science", "news"]
 title = "Re-inventing my academic self"
 math = true
+highlight = false
 summary = """
 Find my own way. 
 """
@@ -27,4 +28,4 @@ Likely this will be my first of very few posts, I feel the publications, my GitH
 </br></br>
 
 ----- 
-<sub><sup>&copy; Copyright. 1979-2017 Sander W. van der Laan. Released under [the MIT license](http://opensource.org/licenses/MIT).</sup></sub>
+<sub><sup>&copy; Copyright. 1979-2018 Sander W. van der Laan. Released under [the MIT license](http://opensource.org/licenses/MIT).</sup></sub>
