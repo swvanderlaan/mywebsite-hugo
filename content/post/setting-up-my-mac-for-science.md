@@ -37,44 +37,45 @@ First, I make some directories I need: `.ssh` and `bin` directory.
    * `chmod -vR 0700 ~/.ssh`
    * `mkdir -v bin`
    * `chmod -vR 0777 ~/bin`
-   
+   </br>
 Second, we will proceed with installing `brew`, `Command Line Tools`, `XQuartz`, `Python`, some `Perl` modules, and finally `R` with `RStudio`. Again, here `Python` is probably not strictly needed. 
 
    * Install **`Command Line Tools`** for macOS El Capitan+ using the instructions here: [http://railsapps.github.io/xcode-command-line-tools.html](http://railsapps.github.io/xcode-command-line-tools.html).
    * Install some useful **Perl** statistics modules:
    
        * `sudo cpan YAML Getopt::Long Statistics::Distributions` - I needed this to work get proper p-values calculated in our [MetaGWASToolKit](https://github.com/swvanderlaan/MetaGWASToolKit).
-   
+   </br>
    * Installation of `brew`, check out [http://www.brew.sh](http://www.brew.sh) or [https://github.com/homebrew](https://github.com/homebrew).
    
        * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-   
+   </br>
    * Now were are ready to `brew`, and install the following packages:
        * `brew install coreutils gnu-sed wget rename git gd libharu git imagemagick lzo hdf5 bison`, these are needed for [**slideToolkit**](https://swvanderlaan.github.io/slideToolkit/), but also contain some general very useful libraries.
        * `brew install mariadb-connector-c`, for some R packages that require `RMySQL` to work.
        * `brew install findutils --with-default-names`.
-   
+   </br>
    * For **[FastQTL](http://fastqtl.sourceforge.net)** and **[fastQTLToolKit](https://github.com/swvanderlaan/fastQTLToolKit)** to work we need to install `GNU scientific libraries`.
         * `brew install zlib boost gsl `
-   
+   </br>
    * We need `cask` to install `Xquartz`. 
        * `brew tap caskroom/cask && brew install cask`
        * `brew cask install xquartz && brew cask install java`
+
 {{% alert note %}}
 Use `brew doctor` to diagnose in-between installations; if there is a problem with ownership use `chown -vR <MYUSERNAME> <A_FOLDER_NAME>` to get ownership back recursively (indicated by the `R`-flag).
 {{% /alert %}}
-   
+   </br>
    * Install the following **Python**:
        * `brew install python`
        * `brew install llvm` — for **[LDSTORE](http://www.christianbenner.com)** to work. To get LDSTORE working on my Mac I also had to jump through some hoops - I'll tell you all about that later.
        * `pip2 install argparse numpy scipy scikit-learn pandas openpyxl xlrd` — the latter two are needed for **[slideToolkitTools](https://github.com/swvanderlaan/slideToolkitTools)**, which is a private repository I use for [**slideToolkit**](https://swvanderlaan.github.io/slideToolkit/).
-   
-   * So now, finally, you're ready to install `R`. 
+   </br>
+   * So now, finally, I'm ready to install `R`. 
        * `brew tap homebrew/science`
        * `brew install r` - I needed `R` installed *with* `tcl-tk`, so I figured out how to do that in [an other post]({{< ref "post/getting-R-with-tcl-tk-on-my-mac.md" >}}). You might not need that.
        * `brew cask install rstudio` - because I dislike the terminal `R`.
-
-Wow, now I'm all set to use `R` for science. Finally, as you know, I'm all into genetics, analyses of methylation data, etc. I've written a couple of R scripts that might be useful for you to. They help install some commonly (interdependent) packages in R, almost automatically. You can find them in the [HerculesToolKit](https://github.com/swvanderlaan/HerculesToolKit), alongside some other useful scripts.
+</br>
+Finally, as you know, I'm all into genetics, analyses of methylation data, etc. I've written a couple of R scripts that might be useful for you to. They help install some commonly (interdependent) packages in R, almost automatically. You can find them in the [HerculesToolKit](https://github.com/swvanderlaan/HerculesToolKit), alongside some other useful scripts.
 
 
 </br></br>
