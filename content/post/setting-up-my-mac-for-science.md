@@ -1,6 +1,6 @@
 +++
 date = 2018-02-06
-lastmod = 2018-02-06:13:58
+lastmod = 2018-02-06
 draft = false
 tags = ["macOS", "coding", "html", "mac", "homebrew", "R", "Rstudio"]
 title = "How I setup my Mac to do Science in 2018"
