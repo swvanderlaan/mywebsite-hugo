@@ -13,7 +13,7 @@ title = "Multiancestry genome-wide association study of 520,000 subjects identif
 url_code = ""
 url_dataset = ""
 url_pdf = "https://www.nature.com/articles/s41588-018-0058-3"
-url_project = "project/other/"
+url_project = "project/functional-genomics/"
 url_slides = ""
 url_video = ""
 
