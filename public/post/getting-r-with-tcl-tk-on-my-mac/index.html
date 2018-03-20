@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.37.1" />
+  <meta name="author" content="Sander W. van der Laan">
+  <meta name="description" content="Junior PostDoc Experimental Cardiology">
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+
+
+  
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat%3a400%2c700%7cRoboto%3a400%2c400italic%2c700%7cRoboto%2bMono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  <link rel="alternate" href="" type="application/rss+xml" title="Van der Laan &amp; Science">
+  <link rel="feed" href="" type="application/rss+xml" title="Van der Laan &amp; Science">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/">
+
+  
+
+  <title>How I got R with tcl-tk on my Mac | Van der Laan &amp; Science</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Van der Laan &amp; Science</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#grants">
+            
+            <span>Grants</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#talks">
+            
+            <span>Talks</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  <img src="/img/headers/computer_code_broad.png" class="article-banner" itemprop="image">
+  <span class="article-header-caption">Image credit: <a href="https://www.shutterstock.com/g/vintagetone" target="_blank"><strong>vintagetone</strong></a></span>
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">How I got R with tcl-tk on my Mac</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-02-06 00:00:00 &#43;0100 CET" itemprop="datePublished">
+      Feb 6, 2018
+    </time>
+  </span>
+
+  
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/macos">macOS</a
+    >, 
+    
+    <a href="/tags/coding">coding</a
+    >, 
+    
+    <a href="/tags/html">html</a
+    >, 
+    
+    <a href="/tags/mac">mac</a
+    >, 
+    
+    <a href="/tags/homebrew">homebrew</a
+    >, 
+    
+    <a href="/tags/r">R</a
+    >, 
+    
+    <a href="/tags/rstudio">Rstudio</a
+    >, 
+    
+    <a href="/tags/tcl-tk">tcl-tk</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=How%20I%20got%20R%20with%20tcl-tk%20on%20my%20Mac&amp;url=https%3a%2f%2fswvanderlaan.github.io%2fpost%2fgetting-r-with-tcl-tk-on-my-mac%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fswvanderlaan.github.io%2fpost%2fgetting-r-with-tcl-tk-on-my-mac%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fswvanderlaan.github.io%2fpost%2fgetting-r-with-tcl-tk-on-my-mac%2f&amp;title=How%20I%20got%20R%20with%20tcl-tk%20on%20my%20Mac"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fswvanderlaan.github.io%2fpost%2fgetting-r-with-tcl-tk-on-my-mac%2f&amp;title=How%20I%20got%20R%20with%20tcl-tk%20on%20my%20Mac"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=How%20I%20got%20R%20with%20tcl-tk%20on%20my%20Mac&amp;body=https%3a%2f%2fswvanderlaan.github.io%2fpost%2fgetting-r-with-tcl-tk-on-my-mac%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="background">Background</h2>
+
+<p>Sometimes data is very skewed and contains a lot of &lsquo;zeros&rsquo; (or very small numbers approaching &lsquo;zero&rsquo;). Before analyses such data need normalisation to meet the assumptions of a statistical test (<a href="https://stats.stackexchange.com/questions/35591/normalization-vs-scaling" target="_blank">you can find more on transformation and normalisation here</a>). Usually people log-transform (<em>e.g.</em> natural log, or log<sub>2</sub>), the disadvantage is that you loose the &lsquo;zeros&rsquo;.</p>
+
+<p>In my case that is an issue, because the measurements made were properly done (no technical issues), so &lsquo;zero&rsquo; really represents &lsquo;zero&rsquo;. In other words: I <em>don&rsquo;t</em> want to loose them. Some years back a colleague of mine pointed me to *&lsquo;Box-Cox&rsquo; transformation** (<a href="http://blog.minitab.com/blog/applying-statistics-in-quality-projects/how-could-you-benefit-from-a-box-cox-transformation" target="_blank">you can find more on that here</a>), and this method is available in <code>R</code> via the <code>geoR</code> package. Hence, the reason for this post.</p>
+
+<p>The thing is: I use <code>brew</code> to install <code>R</code> and many other packages/libraries lacking on macOS, <em>e.g.</em> <code>wget</code>. For reasons I still don&rsquo;t get - but I also realize it&rsquo;s beyond my coding capabilities - <code>brew</code> does <em>not</em> normally install <code>R</code> <em>with</em> the <code>tcl-tk</code> package. And let <em>that</em> be the critical part you need for <code>geoR</code> and by extension the function <code>boxccoxfit</code> to work. After some googling I got some hints that led me to a (on the face of it) permanent solution; <a href="https://discourse.brew.sh/t/r-installs-on-high-sierra-without-tcl-tk-support/1190/15" target="_blank">the discussion on the <code>brew</code> website were critical</a>.</p>
+
+<h3 id="step-by-step">Step-by-step</h3>
+
+<ol>
+<li>I made sure I have tcl-tk installed via <code>brew</code>.
+
+<ul>
+<li><code>brew install tcl-tk</code></li>
+<li>I made sure <code>tcl-tk</code> was in my path: <code>echo 'export PATH=&quot;/usr/local/opt/tcl-tk/bin:$PATH&quot;' &gt;&gt; ~/.bash_profile</code>.</li>
+<li>The command <code>wish</code> also confirmed this.</li>
+</ul></li>
+<li>I also made sure I had installed Command Line Tools properly - there were some updates to High Sierra in the last week, and based on the discussions above I feared it might had to re-installed. I didn&rsquo;t have to, but here&rsquo;s how I checked that. The command <code>brew config</code> shows:</li>
+</ol>
+
+<blockquote>
+<p>HOMEBREW_VERSION: 1.5.2</br>
+ORIGIN: <a href="https://github.com/Homebrew/brew" target="_blank">https://github.com/Homebrew/brew</a></br>
+HEAD: 60a30e966b7cece5bd4823dae3fb981ab85106ea</br>
+Last commit: 13 days ago</br>
+Core tap ORIGIN: <a href="https://github.com/Homebrew/homebrew-core" target="_blank">https://github.com/Homebrew/homebrew-core</a></br>
+Core tap HEAD: 8c1c4f86a269cb23d9d92008abf1a37eabb297b6</br>
+Core tap last commit: 2 days ago</br>
+HOMEBREW_PREFIX: /usr/local</br>
+CPU: quad-core 64-bit skylake</br>
+Homebrew Ruby: 2.3.3 =&gt; /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby</br>
+Clang: 9.0 build 900</br>
+Git: 2.16.1 =&gt; /usr/local/bin/git</br>
+Curl: 7.54.0 =&gt; /usr/bin/curl</br>
+Perl: /usr/bin/perl</br>
+Python: /usr/local/opt/python/libexec/bin/python =&gt; /usr/local/Cellar/python/2.7.14_2/Frameworks/Python.framework/Versions/2.7/bin/python2.7</br>
+Ruby: /usr/bin/ruby =&gt; /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby</br>
+Java: 9.0.1</br>
+macOS: 10.13.3-x86_64</br>
+Xcode: N/A</br>
+** CLT: 9.2.0.0.1.1510905681**</br>
+X11: 2.7.11 =&gt; /opt/X11</br></p>
+</blockquote>
+
+<p>The bold printed line suggests that <code>Command Line Tools</code> should be installed.</br></br>
+3. I than double checked if the path was really set, using the command <code>xcode-select -p</code>, which shows:</p>
+
+<blockquote>
+<p>/Library/Developer/CommandLineTools</p>
+</blockquote>
+
+<p></br>
+4. Also <code>gcc</code> is properly set. I checked this using <code>gcc --version</code>, which shows:</p>
+
+<blockquote>
+<p>Configured with: &ndash;prefix=/Library/Developer/CommandLineTools/usr &ndash;with-gxx-include-dir=/usr/include/c++/4.2.1</br>
+Apple LLVM version 9.0.0 (clang-900.0.39.2)</br>
+Target: x86_64-apple-darwin17.4.0</br>
+Thread model: posix</br>
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin</p>
+</blockquote>
+
+<p></br>
+5. Now that I had confirmed the basics are present, I proceeded by re-installing <code>Xquartz</code>, <code>R</code> and <code>RStudio</code>. To make sure I get the <code>R</code> <em>with</em> <code>tcl-tk</code> I used the R version of <a href="https://discourse.brew.sh/t/r-installs-on-high-sierra-without-tcl-tk-support/1190/15" target="_blank">@srfore</a>. These are the subsequent commands.</p>
+
+<ul>
+<li><code>brew cask reinstall xquartz</code>, re-install <code>Xquartz</code>.</li>
+<li><code>brew reinstall -s sethrfore/homebrew-r-srf/r</code>, installed a edited version of <code>R</code>.</li>
+<li><code>brew cask reinstall rstudio</code>, re-installe <code>Rstudio</code>.
+<br /></li>
+</ul>
+
+<p></br>
+6. All seemed well, I double checked with <code>brew doctor</code>.</p>
+
+<blockquote>
+<p>Your system is ready to brew.</p>
+</blockquote>
+
+<p></br>
+7. Of course, for me, this all started with the need to use the function <code>boxcoxfit</code> from the <code>R</code> package <code>geoR</code> which is dependent on <code>tcl-tk</code>. So, now it was showtime and I started R:</p>
+
+<blockquote>
+<p>install.packages(&ldquo;geoR&rdquo;)</br>
+Installing package into ‘/usr/local/lib/R/3.4/site-library’</br>
+(as ‘lib’ is unspecified)</br>
+&mdash; Please select a CRAN mirror for use in this session &mdash;</br>
+Secure CRAN mirrors</br></p>
+
+<p>1: 0-Cloud [https]                   2: Algeria [https]</br>
+ 3: Australia (Canberra) [https]      4: Australia (Melbourne 1) [https]</br>
+ 5: Australia (Melbourne 2) [https]   6: Australia (Perth) [https]</br>
+ 7: Austria [https]                   8: Belgium (Ghent) [https]</br>
+ 9: Brazil (PR) [https]              10: Brazil (RJ) [https]</br>
+11: Brazil (SP 1) [https]            12: Brazil (SP 2) [https]</br>
+13: Bulgaria [https]                 14: Chile 1 [https]</br>
+15: Chile 2 [https]                  16: China (Guangzhou) [https]</br>
+17: China (Lanzhou) [https]          18: China (Shanghai) [https]</br>
+19: Colombia (Cali) [https]          20: Czech Republic [https]</br>
+21: Denmark [https]                  22: East Asia [https]</br>
+23: Ecuador (Cuenca) [https]         24: Estonia [https]</br>
+25: France (Lyon 1) [https]          26: France (Lyon 2) [https]</br>
+27: France (Marseille) [https]       28: France (Montpellier) [https]</br>
+29: France (Paris 2) [https]         30: Germany (Erlangen) [https]</br>
+31: Germany (Göttingen) [https]      32: Germany (Münster) [https]</br>
+33: Greece [https]                   34: Iceland [https]</br>
+35: Indonesia (Jakarta) [https]      36: Ireland [https]</br>
+37: Italy (Padua) [https]            38: Japan (Tokyo) [https]</br>
+39: Japan (Yonezawa) [https]         40: Malaysia [https]</br>
+41: Mexico (Mexico City) [https]     42: Norway [https]</br>
+43: Philippines [https]              44: Serbia [https]</br>
+45: Spain (A Coruña) [https]         46: Spain (Madrid) [https]</br>
+47: Sweden [https]                   48: Switzerland [https]</br>
+49: Turkey (Denizli) [https]         50: Turkey (Mersin) [https]</br>
+51: UK (Bristol) [https]             52: UK (Cambridge) [https]</br>
+53: UK (London 1) [https]            54: USA (CA 1) [https]</br>
+55: USA (IA) [https]                 56: USA (KS) [https]</br>
+57: USA (MI 1) [https]               58: USA (NY) [https]</br>
+59: USA (OR) [https]                 60: USA (TN) [https]</br>
+61: USA (TX 1) [https]               62: Vietnam [https]</br>
+63: (other mirrors)</p>
+
+<p>Selection: 1</br>
+trying URL &lsquo;<a href="https://cloud.r-project.org/src/contrib/geoR_1.7-5.2.tar.gz'" target="_blank">https://cloud.r-project.org/src/contrib/geoR_1.7-5.2.tar.gz'</a></br>
+Content type &lsquo;application/x-gzip&rsquo; length 421612 bytes (411 KB)</br>
+==================================================</br>
+downloaded 411 KB</br></p>
+
+<p>* installing <em>source</em> package ‘geoR’ &hellip;</br>
+** package ‘geoR’ successfully unpacked and MD5 sums checked</br>
+** libs</br>
+clang -I/usr/local/Cellar/r/3.4.3_1/lib/R/include -DNDEBUG   -I/usr/local/opt/gettext/include -I/usr/local/opt/readline/include -I/usr/local/include   -fPIC  -g -O2  -c geoR.c -o geoR.o</br>
+clang -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/usr/local/Cellar/r/3.4.3_1/lib/R/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/readline/lib -L/usr/local/lib -o geoR.so geoR.o -L/usr/local/Cellar/r/3.4.3_1/lib/R/lib -lR -lintl -Wl,-framework -Wl,CoreFoundation</br>
+installing to /usr/local/lib/R/3.4/site-library/geoR/libs</br>
+** R</br>
+** data</br>
+*** moving datasets to lazyload DB</br>
+** inst</br>
+** preparing package for lazy loading</br>
+** help</br>
+*** installing help indices</br>
+** building package indices</br>
+** testing if installed package can be loaded</br>
+* DONE (geoR)</br>
+</br>
+The downloaded source packages are in</br>
+   ‘/private/var/folders/kh/0s66cjl5487fg_fhwgxqd2340000gn/T/RtmpHJHtGf/downloaded_packages’</br></p>
+</blockquote>
+
+<p></br>
+   And loading <code>geoR</code> was not an issue:</p>
+
+<blockquote>
+<p>library(&ldquo;geoR&rdquo;)</br>
+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</br>
+ Analysis of Geostatistical Data</br>
+ For an Introduction to geoR go to <a href="http://www.leg.ufpr.br/geoR" target="_blank">http://www.leg.ufpr.br/geoR</a></br>
+ geoR version 1.7-5.2 (built on 2016-05-02) is now loaded</br>
+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</br></p>
+</blockquote>
+
+<p>So, finally, I have <code>boxcoxfit()</code> available. I&rsquo;m all set to normalise my data using <code>Box-Cox</code> transformations.</p>
+
+<p></br></br></p>
+
+<hr />
+
+<p><sub><sup>&copy; Copyright. 1979-2018 Sander W. van der Laan. Released under <a href="http://opensource.org/licenses/MIT" target="_blank">the MIT license</a>.</sup></sub></p>
+
+    </div>
+  </div>
+
+</article>
+
+
+
+<div class="article-container">
+  <h3>Related</h3>
+  <ul>
+    
+    <li><a href="/post/setting-up-my-mac-for-science/">How I setup my Mac to do Science in 2018</a></li>
+    
+    <li><a href="/post/my-hugo-2-github-setup/">How I maintain my Hugo-based website on GitHub</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://swvanderlaan.github.io/post/setting-up-my-mac-for-science/"><span
+      aria-hidden="true">&larr;</span> How I setup my Mac to do Science in 2018</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "swvanderlaan-github" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 1979-2018 Sander W. van der Laan &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+
