@@ -56,7 +56,8 @@ git add -A
 git commit -m "Committing the (updated) source files."
 git push origin master
 
-hugo # if using a theme, replace by `hugo -t <yourtheme>`
+# if using a theme, replace by `hugo -t <yourtheme>`
+hugo 
 
 ### Depending on your needs, you can create a LICENSE file and README.md. You can use
 ### these as an example 
