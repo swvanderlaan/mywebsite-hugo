@@ -56,45 +56,45 @@ git add -A
 git commit -m "Committing the (updated) source files."
 git push origin master
 
-# hugo # if using a theme, replace by `hugo -t <yourtheme>`
-# 
-# ### Depending on your needs, you can create a LICENSE file and README.md. You can use
-# ### these as an example 
-# cp -v ${ROOT}/focus_stuff/LICENSE.md ${WEBSITEPUBLIC}/LICENSE.md
-# cp -v ${ROOT}/focus_stuff/README.md ${WEBSITEPUBLIC}/README.md
-# ### If you want to re-direct your GitHub page to another domain, you'll have to make a
-# ### 'CNAME' file.
-# # echo "http://www.waldamargroup.com" > ${WEBSITEPUBLIC}/CNAME
-# 
-# echo ""
-# echo "-----------------------------"
-# echo "* Going to 'public' folder..."
-# 
-# cd ${ROOT}/swvanderlaan.github.io
-# 
-# cp -afv ${ROOT}/mywebsite-hugo/public/* .
-# 
-# echo ""
-# echo "-----------------------------"``
-# echo "* Add changes to git..."
-# 
-# git status
-# git add -A
-# 
-# echo ""
-# echo "-----------------------------"`
-# echo "* Commit changes..."
-# msg="> Rebuilding site $(date)."
-# if [ $# -eq 1 ]
-#   then msg="$1"
-# fi
-# git commit -m "$msg."
-# 
-# # Push source and build repos.
-# git push origin master
-# 
-# # Come Back
-# cd ${ROOT}
+hugo # if using a theme, replace by `hugo -t <yourtheme>`
+
+### Depending on your needs, you can create a LICENSE file and README.md. You can use
+### these as an example 
+cp -v ${ROOT}/focus_stuff/LICENSE.md ${WEBSITEPUBLIC}/LICENSE.md
+cp -v ${ROOT}/focus_stuff/README.md ${WEBSITEPUBLIC}/README.md
+### If you want to re-direct your GitHub page to another domain, you'll have to make a
+### 'CNAME' file.
+# echo "http://www.waldamargroup.com" > ${WEBSITEPUBLIC}/CNAME
+
+echo ""
+echo "-----------------------------"
+echo "* Going to 'public' folder..."
+
+cd ${ROOT}/swvanderlaan.github.io
+
+cp -afv ${ROOT}/mywebsite-hugo/public/* .
+
+echo ""
+echo "-----------------------------"``
+echo "* Add changes to git..."
+
+git status
+git add -A
+
+echo ""
+echo "-----------------------------"`
+echo "* Commit changes..."
+msg="> Rebuilding site $(date)."
+if [ $# -eq 1 ]
+  then msg="$1"
+fi
+git commit -m "$msg."
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ${ROOT}
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "Wow. We're all done. Let's have a 🍺 !"
