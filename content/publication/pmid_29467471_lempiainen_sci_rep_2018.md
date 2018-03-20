@@ -13,7 +13,7 @@ title = "Network analysis of coronary artery disease risk genes elucidates disea
 url_code = ""
 url_dataset = ""
 url_pdf = "https://www.nature.com/articles/s41598-018-20721-6"
-url_project = "project/other/"
+url_project = "project/functional-genomics/"
 url_slides = ""
 url_video = ""
 
