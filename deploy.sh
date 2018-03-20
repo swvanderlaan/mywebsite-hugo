@@ -45,17 +45,28 @@ echo "Public website____________ ${WEBSITEPUBLIC}"
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "Deploying updates to GitHub."
 echo ""
-echo "-----------------------------"`
+echo "-----------------------------------"
 echo "* Building the project..."
 cd ${WEBSITE}
 # rm -rvf ${WEBSITEPUBLIC}
 rm -rf ${WEBSITEPUBLIC}
 
+echo ""
+echo "-----------------------------------"
+echo "* Add changes to git..."
+
 git status
 git add -A
+
+echo ""
+echo "-----------------------------------"
+echo "* Commit changes..."
 git commit -m "Committing the (updated) source files."
 git push origin master
 
+echo ""
+echo "-----------------------------------"
+echo "* Rebuild the website using Hugo..."
 ### if using a theme, replace by 'hugo -t <yourtheme>'
 hugo 
 
@@ -72,7 +83,7 @@ cp ${ROOT}/focus_stuff/README.md ${WEBSITEPUBLIC}/README.md
 ### echo "http://www.waldamargroup.com" > ${WEBSITEPUBLIC}/CNAME
 
 echo ""
-echo "-----------------------------"
+echo "-----------------------------------"
 echo "* Going to 'public' folder..."
 
 cd ${ROOT}/swvanderlaan.github.io
@@ -81,14 +92,14 @@ cd ${ROOT}/swvanderlaan.github.io
 cp -af ${ROOT}/mywebsite-hugo/public/* .
 
 echo ""
-echo "-----------------------------"``
+echo "-----------------------------------"
 echo "* Add changes to git..."
 
 git status
 git add -A
 
 echo ""
-echo "-----------------------------"`
+echo "-----------------------------------"
 echo "* Commit changes..."
 msg="> Rebuilding site $(date)."
 if [ $# -eq 1 ]
