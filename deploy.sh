@@ -37,7 +37,7 @@ USERROOT="/Users/swvanderlaan"
 ROOT="${USERROOT}/website"
 
 WEBSITE="${ROOT}/mywebsite-hugo"
-WEBSITEPUBLIC="${WEBSITE}/public"
+WEBSITEPUBLIC="${WEBSITE}/swvanderlaan.github.io"
 
 echo "Root directory____________ ${ROOT}"
 echo "Website root directory____ ${WEBSITE}"
