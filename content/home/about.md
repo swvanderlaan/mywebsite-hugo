@@ -15,6 +15,7 @@ weight = 1
     "Cardiovascular genetics",
     "Mendelian randomisation",
     "molecularQTL analyses",
+    "Finemapping",
     "High-throughput imaging"
   ]
 
