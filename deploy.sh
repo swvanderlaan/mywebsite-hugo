@@ -48,7 +48,8 @@ echo ""
 echo "-----------------------------"`
 echo "* Building the project..."
 cd ${WEBSITE}
-rm -rvf ${WEBSITEPUBLIC}
+# rm -rvf ${WEBSITEPUBLIC}
+rm -rf ${WEBSITEPUBLIC}
 
 git status
 git add -A
@@ -60,8 +61,12 @@ hugo
 
 ### Depending on your needs, you can create a LICENSE file and README.md. You can use
 ### these as an example 
-cp -v ${ROOT}/focus_stuff/LICENSE.md ${WEBSITEPUBLIC}/LICENSE.md
-cp -v ${ROOT}/focus_stuff/README.md ${WEBSITEPUBLIC}/README.md
+# cp -v ${ROOT}/focus_stuff/LICENSE.md ${WEBSITEPUBLIC}/LICENSE.md
+# cp -v ${ROOT}/focus_stuff/README.md ${WEBSITEPUBLIC}/README.md
+
+cp ${ROOT}/focus_stuff/LICENSE.md ${WEBSITEPUBLIC}/LICENSE.md
+cp ${ROOT}/focus_stuff/README.md ${WEBSITEPUBLIC}/README.md
+
 ### If you want to re-direct your GitHub page to another domain, you'll have to make a
 ### 'CNAME' file.
 ### echo "http://www.waldamargroup.com" > ${WEBSITEPUBLIC}/CNAME
@@ -72,7 +77,8 @@ echo "* Going to 'public' folder..."
 
 cd ${ROOT}/swvanderlaan.github.io
 
-cp -afv ${ROOT}/mywebsite-hugo/public/* .
+# cp -afv ${ROOT}/mywebsite-hugo/public/* .
+cp -af ${ROOT}/mywebsite-hugo/public/* .
 
 echo ""
 echo "-----------------------------"``
