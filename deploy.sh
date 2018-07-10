@@ -29,7 +29,7 @@ echo ""
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echobold "The following directories are set."
 
-# Macbook Pro
+# MacBook
 USERROOT="/Users/swvanderlaan"
 
 # ROOT
