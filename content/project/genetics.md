@@ -28,7 +28,9 @@ caption = "Image credit: [**Bereziuk Serhii**](https://www.shutterstock.com/g/be
 
 +++
 
-[More information to follow]
+At the start of the Human Genome Project, its promise was to not deliver new druggable targets, rather to increase our knowledge of the human genome, its organisation and its contents. Now, decades later, and fuelled by advances in genotyping technology, [genome-wide association studies (GWAS)](https://jamanetwork.com/journals/jama/article-abstract/181647) have robustly associated thousands of variants to [hundreds of traits and diseases](http://www.pnas.org/content/106/23/9362). While these have vastly increased, and confirmed, our understanding of the genetic underpinnings of common diseases, such as [coronary artery disease (CAD)](https://www.nature.com/articles/ng.3874) and [ischemic stroke](https://www.nature.com/articles/s41588-018-0058-3), they fall short of precisely explaining the underlying biological mechanisms. For over [half of the genetic loci](https://www.nature.com/articles/nrg.2016.160) associated to cardiovascular diseases (CVD), the mechanisms remain to be discovered.
+
+The main aim here is to further our insights in these mechanisms through deep-phenotyping of cohorts comprising patients with manifested forms CVD and genetic analyses of these subphenotypes within known CVD loci.
 
 <!-- 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.

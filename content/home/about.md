@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2018-03-20T16:53:00"
+date = "2018-09-25T09:54:00"
 draft = false
 
 widget = "about"
@@ -44,8 +44,10 @@ weight = 1
 
 # Biography
 
-I am a junior postdoctoral fellow in the [Laboratory of Experimental Cardiology](https://www.umcutrecht.nl/en/Subsites/Experimental-cardiology) at the University Medical Center Utrecht and University of Utrecht. My research interest is in the genetic and epigenetic causes of carotid and coronary atherosclerosis underlying ischemic stroke (IS) and coronary artery disease (CAD).
+I am a postdoctoral fellow in the [Circulatory Health Program](https://www.umcutrecht.nl/en/Research/Strategic-themes/Circulatory-Health) at the University Medical Center Utrecht and University of Utrecht and work with [professor dr. Folkert W. Asselbergs](https://www.umcutrecht.nl/en/Research/Strategic-themes/Circulatory-Health/Research-themes/Group-Asselbergs) and [professor dr. Gerard Pasterkamp](https://www.linkedin.com/in/gerard-pasterkamp-71a1b36/). My research interest is focused on the genetic and epigenetic causes of carotid and coronary atherosclerosis underlying ischemic stroke (IS) and coronary artery disease (CAD), and their intermediate traits such as carotid intima media thickness (cIMT) and arterial calcification.
 
 I am currently working on integrating Bayesian fine-mapping methodology, expression and methylation quantitative trait loci analyses in circulating cells and atherosclerotic tissues, and genome-wide association studies (GWAS) of plaque and serum biomarkers as well as plaque characteristics based on high-through imaging of histological slides. As means of integrating these biological layers I apply Mendelian Randomisation methods to infer causal genes, proteins, networks and biomarkers underlying IS and CAD.
 
-I actively contributed to the [International Stroke Genetics Consortium](http://www.strokegenetics.org). In addition, I made some contributions to international consortia, including [GENIUS-CHD](http://www.genius-chd.com), [GIANT](http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium), [GLGC](http://lipidgenetics.org), [GoDMC](http://www.godmc.org.uk), and various other international consortia.
+I actively contribute to the [International Stroke Genetics Consortium](http://www.strokegenetics.org). In addition, I make contributions to international consortia, including [GENIUS-CHD](http://www.genius-chd.com), [GIANT](http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium), [GLGC](http://lipidgenetics.org), [GoDMC](http://www.godmc.org.uk), 1Million Hearts, and various other international consortia. 
+
+This work is covered through various (inter)national collaborative grant programs: CVON-GENIUS2 funded by the Dutch Heart Foundation (DHF, grant-number: CVON 2017-20), ERA-CVD 'druggable-MI-targets' in part funded by the DHF (grant-number: JTC2017-40-2017T096), and Leducq Fondation (PlaqOmics).

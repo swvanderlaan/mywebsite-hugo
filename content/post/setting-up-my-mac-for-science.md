@@ -1,6 +1,6 @@
 +++
 date = 2018-02-06
-lastmod = 2018-02-06
+lastmod = 2018-07-10
 draft = false
 tags = ["macOS", "coding", "html", "mac", "homebrew", "R", "Rstudio"]
 title = "How I setup my Mac to do Science in 2018"
@@ -51,8 +51,10 @@ Second, we will proceed with installing `brew`, `Command Line Tools`, `XQuartz`,
    
    * Now were are ready to `brew`, and install the following packages:
        * `brew install coreutils gnu-sed wget rename git gd libharu git imagemagick lzo hdf5 bison`, these are needed for [**slideToolkit**](https://swvanderlaan.github.io/slideToolkit/), but also contain some general very useful libraries.
+       * `brew install libxml2 gdal`, for some R packages to work.
        * `brew install mariadb-connector-c`, for some R packages that require `RMySQL` to work.
-       * `brew install findutils --with-default-names`.
+       * `brew install findutils`.
+       * `brew install samtools bcftools vcftools`, very easy install of these useful programs that are essential for genetic studies nowadays.
    
    * For **[FastQTL](http://fastqtl.sourceforge.net)** and **[fastQTLToolKit](https://github.com/swvanderlaan/fastQTLToolKit)** to work we need to install `GNU scientific libraries`.
         * `brew install zlib boost gsl `
@@ -71,7 +73,6 @@ Use `brew doctor` to diagnose in-between installations; if there is a problem wi
        * `pip2 install argparse numpy scipy scikit-learn pandas openpyxl xlrd` — the latter two are needed for **[slideToolkitTools](https://github.com/swvanderlaan/slideToolkitTools)**, which is a private repository I use for [**slideToolkit**](https://swvanderlaan.github.io/slideToolkit/).
    
    * So now, finally, I'm ready to install `R`. 
-       * `brew tap homebrew/science`
        * `brew install r` - I needed `R` installed *with* `tcl-tk`, so I figured out how to do that in [an other post]({{< ref "post/getting-R-with-tcl-tk-on-my-mac.md" >}}). You might not need that.
        * `brew cask install rstudio` - because I dislike the terminal `R`.
 
@@ -81,5 +82,5 @@ Finally, as you know, I'm all into genetics, analyses of methylation data, etc. 
 </br></br>
 
 ----- 
-<sub><sup>&copy; Copyright. 1979-2017 Sander W. van der Laan. Released under [the MIT license](http://opensource.org/licenses/MIT).</sup></sub>
+<sub><sup>&copy; Copyright. 1979-2018 Sander W. van der Laan. Released under [the MIT license](http://opensource.org/licenses/MIT).</sup></sub>
 

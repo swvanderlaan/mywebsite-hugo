@@ -1,6 +1,6 @@
 +++
 date = 2018-02-06
-lastmod = 2018-02-06
+lastmod = 2018-07-10
 draft = false
 tags = ["macOS", "coding", "html", "mac", "homebrew", "R", "Rstudio", "tcl-tk"]
 title = "How I got R with tcl-tk on my Mac"
@@ -71,9 +71,9 @@ The thing is: I use `brew` to install `R` and many other packages/libraries lack
    </br>
 5. Now that I had confirmed the basics are present, I proceeded by re-installing `Xquartz`, `R` and `RStudio`. To make sure I get the `R` _with_ `tcl-tk` I used the R version of [@srfore](https://discourse.brew.sh/t/r-installs-on-high-sierra-without-tcl-tk-support/1190/15). These are the subsequent commands.
 
-   * `brew cask reinstall xquartz`, re-install `Xquartz`.
-   * `brew reinstall -s sethrfore/homebrew-r-srf/r`, installed a edited version of `R`.
-   * `brew cask reinstall rstudio`, re-installe `Rstudio`.
+   * `brew cask install xquartz`, install `Xquartz`. Although some suggested this should not be necessary.
+   * `brew install -s sethrfore/homebrew-r-srf/r`, installed an edited version of `R`.
+   * `brew cask install rstudio`, install `Rstudio`.
    
    </br>
 6. All seemed well, I double checked with `brew doctor`.
