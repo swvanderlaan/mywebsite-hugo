@@ -13,7 +13,7 @@ title = "Smoking is Associated to DNA Methylation in Atherosclerotic Carotid Les
 url_code = ""
 url_dataset = ""
 url_pdf = "https://www.ahajournals.org/doi/full/10.1161/CIRCGEN.117.002030"
-url_project = "project/genetics/"
+url_project = "project/functional-genomics/"
 url_slides = ""
 url_video = ""
 
