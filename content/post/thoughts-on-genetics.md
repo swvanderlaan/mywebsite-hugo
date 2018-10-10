@@ -11,7 +11,7 @@ Ewan Birney – On Genetics as a whole, and PRSs, and Robert Plomin’s book.
 """
 
 [header]
-image = "headers/computer_code_broad.png"
+image = "headers/banner_man_standing_dna.png"
 caption = "Image credit: [**vintagetone**](https://www.shutterstock.com/g/vintagetone)"
 
 +++
