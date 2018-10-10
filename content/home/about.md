@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2018-10-09T21:35:00"
+date = "2018-10-08"
 draft = false
 
 widget = "about"
@@ -50,4 +50,4 @@ I am currently working on integrating Bayesian fine-mapping methodology, express
 
 I actively contribute to the [International Stroke Genetics Consortium](http://www.strokegenetics.org). In addition, I make contributions to international consortia, including [GENIUS-CHD](http://www.genius-chd.com), [GIANT](http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium), [GLGC](http://lipidgenetics.org), [GoDMC](http://www.godmc.org.uk), 1Million Hearts, and various other international consortia. 
 
-This work is covered through various (inter)national collaborative grant programs: CVON-GENIUS2 funded by the Dutch Heart Foundation (DHF, grant-number: CVON 2017-20), ERA-CVD 'druggable-MI-targets' in part funded by the DHF (grant-number: JTC2017-40-2017T096), and Leducq Fondation ([PlaqOmics](https://www.plaqomics.com/)).
+This work is covered through various (inter)national collaborative grant programs: CVON-GENIUS2 funded by the Dutch Heart Foundation (DHF, grant-number: CVON 2017-20), ERA-CVD 'druggable-MI-targets' in part funded by the DHF (grant-number: JTC2017-40-2017T096), and Leducq Fondation [Plaq_Omics_](https://www.plaqomics.com/).
