@@ -1,6 +1,6 @@
 +++
-date = 2018-02-06
-lastmod = 2018-07-10
+date = 2018-10-10
+lastmod = 2018-10-10
 draft = false
 tags = ["genetics", "polygenic scores", "polygenic risk scores", "PRS", "polygenic", "genomics", "GWAS", "genome-wide association studies"]
 title = "Ewan Birney – On Genetics as a whole, and PRSs, and Robert Plomin’s book"
