@@ -1,6 +1,6 @@
 baseurl = "https://swvanderlaan.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Van der Laan & Science"
-copyright = "&copy; 1979-2018 Sander W. van der Laan"
+copyright = "&copy; 1979-`{year}` Sander W. van der Laan"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
