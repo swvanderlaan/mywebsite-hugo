@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Van der Laan &amp; Science</title>
+    <link>https://swvanderlaan.github.io/project/</link>
+    <description>Recent content in Projects on Van der Laan &amp; Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 1979-`{year}` Sander W. van der Laan</copyright>
+    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swvanderlaan.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mendelian randomisation</title>
+      <link>https://swvanderlaan.github.io/project/mendelian-randomisation/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/project/mendelian-randomisation/</guid>
+      <description>Causal inference through the use of genomics to identify putative druggable candidates.</description>
+    </item>
+    
+    <item>
+      <title>Cardiovascular genetics</title>
+      <link>https://swvanderlaan.github.io/project/genetics/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/project/genetics/</guid>
+      <description>Investigations into the genetic architecture of cardiovascular diseases and their risk factors.</description>
+    </item>
+    
+    <item>
+      <title>Functional genomics</title>
+      <link>https://swvanderlaan.github.io/project/functional-genomics/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/project/functional-genomics/</guid>
+      <description>Exploring the functional role of genetic risk loci of cardiovascular diseases and risk factors.</description>
+    </item>
+    
+    <item>
+      <title>Other work</title>
+      <link>https://swvanderlaan.github.io/project/other/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/project/other/</guid>
+      <description>Other general work on human disease and its genetic and environmental risk factors.</description>
+    </item>
+    
+    <item>
+      <title>High-throughput imaging</title>
+      <link>https://swvanderlaan.github.io/project/high-throughput-imaging/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/project/high-throughput-imaging/</guid>
+      <description>Applying machine-learning for the analysis of pathological slides.</description>
+    </item>
+    
+  </channel>
+</rss>

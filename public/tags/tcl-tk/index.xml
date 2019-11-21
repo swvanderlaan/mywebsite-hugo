@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tcl-tk on Van der Laan &amp; Science</title>
+    <link>https://swvanderlaan.github.io/tags/tcl-tk/</link>
+    <description>Recent content in tcl-tk on Van der Laan &amp; Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 1979-`{year}` Sander W. van der Laan</copyright>
+    <lastBuildDate>Tue, 06 Feb 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://swvanderlaan.github.io/tags/tcl-tk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I got R with tcl-tk on my Mac</title>
+      <link>https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/</guid>
+      <description>Setting up macOS El Capitan+ with R with tcl-tk using homebrew.</description>
+    </item>
+    
+  </channel>
+</rss>

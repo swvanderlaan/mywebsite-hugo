@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>high-throughput-imaging on Van der Laan &amp; Science</title>
+    <link>https://swvanderlaan.github.io/tags/high-throughput-imaging/</link>
+    <description>Recent content in high-throughput-imaging on Van der Laan &amp; Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 1979-`{year}` Sander W. van der Laan</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swvanderlaan.github.io/tags/high-throughput-imaging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>High-throughput imaging</title>
+      <link>https://swvanderlaan.github.io/project/high-throughput-imaging/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/project/high-throughput-imaging/</guid>
+      <description>Applying machine-learning for the analysis of pathological slides.</description>
+    </item>
+    
+  </channel>
+</rss>

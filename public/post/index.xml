@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Van der Laan &amp; Science</title>
+    <link>https://swvanderlaan.github.io/post/</link>
+    <description>Recent content in Posts on Van der Laan &amp; Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 1979-`{year}` Sander W. van der Laan</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://swvanderlaan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ewan Birney – On Genetics as a whole, and PRSs, and Robert Plomin’s book</title>
+      <link>https://swvanderlaan.github.io/post/thoughts-on-genetics/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/thoughts-on-genetics/</guid>
+      <description>Ewan Birney – On Genetics as a whole, and PRSs, and Robert Plomin’s book.</description>
+    </item>
+    
+    <item>
+      <title>Tackling post-Michigan Imputation Server troubles</title>
+      <link>https://swvanderlaan.github.io/post/converting-m3vcf-to-anything-else/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/converting-m3vcf-to-anything-else/</guid>
+      <description>Converting VCF-output from the Michigan Imputation Server to any other format.</description>
+    </item>
+    
+    <item>
+      <title>How I got R with tcl-tk on my Mac</title>
+      <link>https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/</guid>
+      <description>Setting up macOS El Capitan+ with R with tcl-tk using homebrew.</description>
+    </item>
+    
+    <item>
+      <title>How I setup my Mac to do Science in 2018</title>
+      <link>https://swvanderlaan.github.io/post/setting-up-my-mac-for-science/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/setting-up-my-mac-for-science/</guid>
+      <description>Setting up macOS El Capitan+ to do Science in 2018 with homebrew.</description>
+    </item>
+    
+    <item>
+      <title>How I maintain my Hugo-based website on GitHub</title>
+      <link>https://swvanderlaan.github.io/post/my-hugo-2-github-setup/</link>
+      <pubDate>Mon, 03 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/my-hugo-2-github-setup/</guid>
+      <description>Understanding hugo 2 github static site building.</description>
+    </item>
+    
+    <item>
+      <title>Re-inventing my academic self</title>
+      <link>https://swvanderlaan.github.io/post/my-first-post/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/my-first-post/</guid>
+      <description>Find my own way.</description>
+    </item>
+    
+  </channel>
+</rss>
