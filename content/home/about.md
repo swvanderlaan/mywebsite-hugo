@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2018-11-20"
+date = "2018-03-20"
 draft = false
 
 widget = "about"
@@ -55,3 +55,4 @@ I actively contribute to the [International Stroke Genetics Consortium](http://w
 I am a Review Editor for Frontiers in Cardiovascular Epidemiology and Prevention and Frontiers in Human Genomics.
 
 This work is covered through various (inter)national collaborative grant programs: CVON-GENIUS2 funded by the Dutch Heart Foundation (DHF, grant-number: CVON 2017-20), ERA-CVD 'druggable-MI-targets' in part funded by the DHF (grant-number: JTC2017-40-2017T096), H2020 'TO AITION', and Leducq Fondation [Plaq_Omics_](https://www.plaqomics.com/).
+
